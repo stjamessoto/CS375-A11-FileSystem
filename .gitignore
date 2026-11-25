@@ -1,0 +1,15 @@
+# build outputs
+src/fs_test
+*.o
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+
+# generated submission (rebuild with `make submission`)
+submission/source/
+submission/screenshots/
+submission/*.pdf
+submission/*.zip
